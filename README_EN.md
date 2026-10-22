@@ -2,13 +2,40 @@
 
 **Modern Offline Audio Converter for Windows**
 
-A local Windows audio converter for SILK V3 voice files, with MP3/WAV output, a batch queue and basic playback. File contents determine the format, rather than the extension.
+Bring voice files back to your everyday player.
+
+Links Audio converts SILK V3, MP3 and common WAV files locally on Windows. Drop in your files, choose MP3 or WAV and an output folder, then start. No command line, account or additional runtime installation is needed.
 
 [简体中文](README.md) · [Build](BUILD.md) · [Test scope](TEST_REPORT.md) · [Third-party notices](THIRD_PARTY_NOTICES.md)
 
 ![Links Audio](docs/screenshots/main-dark.png)
 
-This is the running application with generated tones, not a design mockup. The output field shows a generic example path. No recorded speech is included.
+**Local processing · Batch conversion · MP3 / WAV · Dark & light themes**
+
+## A closer look
+
+These screenshots show the running application with generated non-speech tones and a generic output path.
+
+<table>
+<tr><td width="50%" align="center"><strong>Drop files to begin</strong><br><img src="docs/screenshots/welcome-dark.png" alt="Dark welcome and import screen" width="480"></td><td width="50%" align="center"><strong>A clear light theme</strong><br><img src="docs/screenshots/main-light.png" alt="Conversion queue in the light theme" width="480"></td></tr>
+</table>
+
+Imports, task status, playback and output actions stay together in one window.
+
+<details>
+<summary><strong>See the compact window</strong></summary>
+
+![Compact window](docs/screenshots/compact.png)
+
+</details>
+
+### Only the settings you need
+
+Choose an output folder, MP3 bitrate, naming rule and filename-conflict behavior. The About window provides version, author and license information.
+
+<table>
+<tr><td width="50%" align="center"><strong>Conversion settings</strong><br><img src="docs/screenshots/settings.png" alt="Output and conversion preferences" width="360"></td><td width="50%" align="center"><strong>About Links Audio</strong><br><img src="docs/screenshots/about.png" alt="Version, author and license entry point" width="360"></td></tr>
+</table>
 
 ## Features
 
@@ -24,7 +51,7 @@ True AMR-NB/WB is recognized but **not decoded**. Other containers and FLAC/M4A 
 
 ## Download and use
 
-Download `LinksAudio-Portable-win-x64.zip` from this repository's **Releases** page when published. No repository or release URL has been invented here. GitHub's automatic **Source code (zip)** is a source snapshot, not the desktop application.
+Download **`LinksAudio-Portable-win-x64.zip`** from this repository's **Releases** page. GitHub's automatic **Source code (zip)** is a source snapshot, not the desktop application.
 
 1. Extract the whole portable ZIP.
 2. Run `LinksAudio.exe`; keep both native DLLs and the license folder beside it.

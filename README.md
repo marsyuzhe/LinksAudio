@@ -2,13 +2,40 @@
 
 **Modern Offline Audio Converter for Windows**
 
-一款离线 Windows 音频转换工具，主要用于 SILK V3 语音文件。识别文件真实内容，将音频转换为 MP3 或 WAV，并提供批量处理和本地试听。
+让语音文件，回到熟悉的播放器。
+
+Links Audio 是一款面向 Windows 的离线音频转换工具。拖入 SILK 语音、MP3 或 WAV，选择格式与目录，即可在本机完成转换。无需命令行、账号或额外安装运行环境。
 
 [English](README_EN.md) · [构建说明](BUILD.md) · [测试范围](TEST_REPORT.md) · [第三方许可](THIRD_PARTY_NOTICES.md)
 
 ![Links Audio 深色主界面](docs/screenshots/main-dark.png)
 
-截图来自实际应用；队列使用合成音调，没有真实语音。保存位置使用通用示例路径。
+**本地转换 · 批量处理 · MP3 / WAV · 深浅主题**
+
+## 界面一览
+
+从导入到保存，常用操作集中在同一个窗口。下面均为实际应用截图，使用无语音合成样本和通用路径。
+
+<table>
+<tr><td width="50%" align="center"><strong>拖入文件，开始转换</strong><br><img src="docs/screenshots/welcome-dark.png" alt="深色欢迎页面与文件拖放区" width="480"></td><td width="50%" align="center"><strong>浅色模式，同样清晰</strong><br><img src="docs/screenshots/main-light.png" alt="浅色主题下的转换队列" width="480"></td></tr>
+</table>
+
+文件夹导入、任务状态、试听入口和输出操作都在主窗口中；窗口缩小时，队列仍保持可用。
+
+<details>
+<summary><strong>查看紧凑窗口</strong></summary>
+
+![紧凑窗口](docs/screenshots/compact.png)
+
+</details>
+
+### 保留必要的设置
+
+输出目录、MP3 码率、命名规则与同名处理集中在设置中。关于窗口列出版本、作者和第三方许可入口。
+
+<table>
+<tr><td width="50%" align="center"><strong>转换设置</strong><br><img src="docs/screenshots/settings.png" alt="输出格式、音质、命名与覆盖设置" width="360"></td><td width="50%" align="center"><strong>关于 Links Audio</strong><br><img src="docs/screenshots/about.png" alt="版本、作者与第三方许可证入口" width="360"></td></tr>
+</table>
 
 ## 功能
 
@@ -24,7 +51,7 @@
 
 ## 下载
 
-在本仓库的 **Releases** 页面下载 `LinksAudio-Portable-win-x64.zip`。仓库尚未公布下载地址，本文件不包含虚构链接。
+在本仓库右侧的 **Releases** 页面下载 **`LinksAudio-Portable-win-x64.zip`**，完整解压后即可使用。
 
 GitHub 自动提供的 **Source code (zip)** 是源码快照，不是 Windows 程序。普通用户应下载名称含 **Portable-win-x64** 的附件。
 
