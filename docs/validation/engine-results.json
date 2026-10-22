@@ -1,0 +1,138 @@
+{
+  "run": "2026-10-22T20:35:53.7713625+08:00",
+  "output": "tests/output/<local-run>",
+  "tests": [
+    {
+      "name": "native_vs_original_reference",
+      "status": "PASS",
+      "details": "PCM byte identical, 314880 bytes, 6.560 s"
+    },
+    {
+      "name": "standard.silk_to_WAV",
+      "status": "PASS",
+      "details": "6.560 s; PCM"
+    },
+    {
+      "name": "standard.silk_to_MP3",
+      "status": "PASS",
+      "details": "6.609 s; Windows Media Foundation"
+    },
+    {
+      "name": "合成测试.amr_to_WAV",
+      "status": "PASS",
+      "details": "6.560 s; PCM"
+    },
+    {
+      "name": "合成测试.amr_to_MP3",
+      "status": "PASS",
+      "details": "6.609 s; Windows Media Foundation"
+    },
+    {
+      "name": "forced_LAME_fallback",
+      "status": "PASS",
+      "details": "LAME 3.100; 6.624 s"
+    },
+    {
+      "name": "WAV_input_to_MP3",
+      "status": "PASS",
+      "details": "Output produced and fully decoded; local path omitted."
+    },
+    {
+      "name": "MP3_input_to_WAV",
+      "status": "PASS",
+      "details": "Output produced and fully decoded; local path omitted."
+    },
+    {
+      "name": "empty",
+      "status": "PASS",
+      "details": "rejected"
+    },
+    {
+      "name": "truncated",
+      "status": "PASS",
+      "details": "rejected"
+    },
+    {
+      "name": "damaged_header",
+      "status": "PASS",
+      "details": "rejected"
+    },
+    {
+      "name": "corrupt_payload",
+      "status": "PASS",
+      "details": "rejected"
+    },
+    {
+      "name": "amrnb_detected",
+      "status": "PASS",
+      "details": "recognized; explicitly unsupported backend (header-only fixture)"
+    },
+    {
+      "name": "amrwb_detected",
+      "status": "PASS",
+      "details": "recognized; explicitly unsupported backend (header-only fixture)"
+    },
+    {
+      "name": "unicode_paths",
+      "status": "PASS",
+      "details": "Output produced and fully decoded; local path omitted."
+    },
+    {
+      "name": "long_paths",
+      "status": "PASS",
+      "details": "path chars 352"
+    },
+    {
+      "name": "duplicate_names",
+      "status": "PASS",
+      "details": "standard (2).mp3"
+    },
+    {
+      "name": "overwrite_preserves_input",
+      "status": "PASS",
+      "details": "voice_converted.wav"
+    },
+    {
+      "name": "cancel_before_start",
+      "status": "PASS",
+      "details": "cancelled"
+    },
+    {
+      "name": "cancel_during_decode",
+      "status": "PASS",
+      "details": "cancelled; no output"
+    },
+    {
+      "name": "cancel_after_encoding",
+      "status": "PASS",
+      "details": "staged MP3 removed before commit"
+    },
+    {
+      "name": "unwritable_output",
+      "status": "PASS",
+      "details": "rejected"
+    },
+    {
+      "name": "locked_input",
+      "status": "PASS",
+      "details": "rejected"
+    },
+    {
+      "name": "batch_partial_success",
+      "status": "PASS",
+      "details": "2 success, 1 rejected"
+    },
+    {
+      "name": "sample_rate_resampling",
+      "status": "PASS",
+      "details": "8/12/16/24/48 kHz, duration invariant 6.560 s"
+    },
+    {
+      "name": "source_unchanged",
+      "status": "PASS",
+      "details": "byte identical"
+    }
+  ],
+  "failures": 0,
+  "fixture": "Synthetic 440/660 Hz tones; no recorded speech; same-SDK regression reference."
+}

@@ -1,0 +1,10 @@
+{
+  "LinksSilk.dll": {
+    "bytes": 239104,
+    "sha256": "a35dfd82b80699adb1d3c61ea1b5399a03b666f2e83b81ea532716c2696976ac"
+  },
+  "libmp3lame.64.dll": {
+    "bytes": 298496,
+    "sha256": "76aa0913e840adda43f1ddb3e0a4c2157c647513bdbd67f18f4384d9ccbd0344"
+  }
+}

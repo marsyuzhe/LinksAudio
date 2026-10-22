@@ -1,0 +1,10 @@
+{
+  "synthetic-tone.silk": {
+    "sha256": "0f78167440aa5887bb97ca8db473e2a514e36e1466b56f64d723fe07df81ff5e",
+    "bytes": 11540
+  },
+  "reference.pcm": {
+    "sha256": "8d0a1be5c842f624d2ee1b65c60f233567a571e8d065821a6ce20a2fb3d8e45b",
+    "bytes": 314880
+  }
+}

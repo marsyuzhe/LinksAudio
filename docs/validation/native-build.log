@@ -1,0 +1,6 @@
+Zig 0.13.0, Windows x64.
+LAME attempt 1: failed; manual configuration lacked ieee754_float32_t.
+LAME attempt 2: corrected floating-point typedefs in supplied config.h; build exited 0.
+SILK SDK bridge: source rebuild exited 0, -O2 -s -fwrapv -fno-strict-aliasing.
+No algorithm source edits. No original project files were rewritten.
+Post-build engine tests: 26 PASS, 0 FAIL. Forced LAME encoding: PASS.

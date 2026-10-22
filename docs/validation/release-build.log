@@ -1,0 +1,7 @@
+  正在确定要还原的项目…
+  已还原 <REPO_ROOT>\src\LinksAudio.App\LinksAudio.App.csproj (用时 410 毫秒)。
+  2 个项目(共 3 个)是最新的，无法还原。
+  LinksAudio.Codecs -> <REPO_ROOT>\src\LinksAudio.Codecs\bin\Release\net10.0-windows\LinksAudio.Codecs.dll
+  LinksAudio.Core -> <REPO_ROOT>\src\LinksAudio.Core\bin\Release\net10.0-windows\LinksAudio.Core.dll
+  LinksAudio.App -> <REPO_ROOT>\src\LinksAudio.App\bin\Release\net10.0-windows\win-x64\LinksAudio.dll
+  LinksAudio.App -> <PUBLISH_OUTPUT>\

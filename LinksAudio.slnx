@@ -1,0 +1,1 @@
+<Solution><Folder Name="/src/"><Project Path="src/LinksAudio.App/LinksAudio.App.csproj"/><Project Path="src/LinksAudio.Core/LinksAudio.Core.csproj"/><Project Path="src/LinksAudio.Codecs/LinksAudio.Codecs.csproj"/></Folder><Folder Name="/tests/"><Project Path="tests/LinksAudio.Tests/LinksAudio.Tests.csproj"/></Folder></Solution>

@@ -1,0 +1,1 @@
+PASS: GUI import, folder import, mixed queue conversion, copy path, clear queue, theme switch, minimum size; rendered at 96/120/144 DPI
